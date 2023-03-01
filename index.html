@@ -7,37 +7,46 @@
         <title> Mi Portafolio || Darío Hernández</title>
 
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/head.css">
+        <link rel="stylesheet" href="css/banner.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Edu+QLD+Beginner&family=GFS+Didot&family=Xanh+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Edu+QLD+Beginner&family=GFS+Didot&family=Roboto+Mono:wght@500&family=Xanh+Mono&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e17ca27ab0.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <header class="head CONTAINER">
             <div class="head__logo">
-                <img src="===================" alt="Imagen Avatar" class="head__avatar">
-                <a href="#" class="head__nombre">G_D Hernández</a>
+                <span style="font-size: 3rem;color: whitesmoke;flex-grow: 1;text-align: right;">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                </span>
+                <a href="#" class="head__nombre">Portafolio <br> G_D Hernández</a>
             </div>
-
-            <nav class="head__navegacion">
-                <ul>
-                    <li class="head__item"><a href="">SOBRE MI</a></li>
-                    <li class="head__item"><a href="">SKILLS</a></li>
-                    <li class="head__item"><a href="">FORMACION</a></li>
-                    <li class="head__item"><a href="">EXPERIENCIA</a></li>
-                    <li class="head__item head__item--proyectos"><a href="">PROYECTOS</a></li>
-                    <li class="head__item"><a href="">GALERIA</a></li>
-                    <li class="head__item"><a href="">CONTACTAME</a></li>
+            <nav>
+                <ul class="head__navegacion">
+                    <a class="head__item__texto" href="# conocer">SOBRE MI</a>
+                    <a class="head__item__texto" href="# habilidades">SKILLS</a>
+                    <a class="head__item__texto" href="# formacion">FORMACION</a>
+                    <a class="head__item__texto head__item__texto--proyectos" href="# projects">PROYECTOS</a>
+                    <a class="head__item__texto" href="# galeria">GALERIA</a>
+                    <a class="head__item__texto" href="# contactar">CONTACTAME</a>
                 </ul>
             </nav>
-
-            <button class="boton__cv">Descargar CV</button>
+            <div class="head__containerBoton">
+                <a href="https://drive.google.com/file/d/1FFYodo_ZchJEv5h9Ah6xNnuV5t1hu1ry/view?usp=share_link" target="_blank">
+                    <button class="head__boton">Descargar CV ---
+                        <span style="font-size: 1.2rem;color: rgba(0, 0, 0, 0.80);"><i class="fa-solid fa-cloud-arrow-down fa-beat"></i></span>
+                    </button>
+                </a>
+            </div>
         </header>
 
         <main>
             <section class="banner CONTAINER">
-                <img src="===================" alt="Imagen de Fondo del Banner" class="banner__imagen">
+                <img src="" alt="Imagen de Fondo del Banner" class="banner__imagen">
 
                 <div class="banner__presentacion">
                     <h1 class="banner__texto--bienvenida">Bienvenid@!</h1>
@@ -53,15 +62,15 @@
                 </div>
             </section>
 
-            <section class="sobreMi CONTAINER">
-                <img src="===================" alt="Foto de Dario Hernandez" class="sobreMi__foto">
+            <section class="sobreMi CONTAINER" id="conocer">
+                <img src="" alt="Foto de Dario Hernandez" class="sobreMi__foto">
                 <div class="sobreMi__contenido">
                     <h1 class="sobreMi__titulo">Sobre mi</h1>
                     <p class="sobreMi__parrafo">Hola, mi nombre es Germán Dario Hernández Leal, tengo 37 años y vivo en la ciudad de Villavicencio (Colombia). <br><br>Como consultor de servicio consolidé un fuerte desarrollo del servicio al cliente con capacidad de escuchar y resolver problemas. Logré habilidades de comunicación, de comprensión y resolución de problemas y de trabajo en equipo.<br><br> Actualmente, estoy formándome como Desarrollador WEB.<br><br>Soy muy activo y curioso. Me considero organizado, paciente y honesto. Puedo analizar mi entorno y proponer nuevas ideas. <br><br>Me apasiona dedicarme a mi familia, aprender nuevos conocimientos y la fotografía. <br><br> Cada esfuerzo que realizó, grande o pequeño, lo hago con el fin de transformar mi vida y la de ellos.</p>
                 </div>
             </section>
 
-            <section class="softskills CONTAINER">
+            <section class="softskills CONTAINER" id="habilidades">
                 <h1 class="softskills__titulo">Soft Skills</h1>
                 <div class="softskills__grupos">
                     <div class="softskills__tarjeta">
@@ -162,7 +171,7 @@
                 </div>
             </section>
             
-            <section class="formacion CONTAINER">
+            <section class="formacion CONTAINER" id="formacion">
                 <h1 class="formacion__titulo">Formación</h1>
                 <div class="formacion__lista">
                     <div class="formacion__estudios">
@@ -193,7 +202,8 @@
                 </div>
             </section>
             
-            <section class="proyectos CONTAINER">
+            <section class="proyectos CONTAINER" id="projects">
+                <h1>Proyectos</h1>
                 <div class="proyectos__programacion">
                     <h1 class="proyectos__titulo">Como desarrollador</h1>
                     <div class="programacion__tarjeta">
@@ -241,7 +251,7 @@
                 </div>
             </section>
 
-            <section class="contacto CONTAINER">
+            <section class="contacto CONTAINER" id="contactar">
                 <h1 class="contacto__titulo">Contáctame</h1>
                 <form action="" class="contacto__formulario">
                     <label for="correoElectronoico" class="contacto__label">Email</label>
@@ -265,6 +275,7 @@
             <p class="pieDePagina__descripcion">Ésta página fue elaborada usando metodologia ágil, la herramienta EMET, el diseño FirstMobile y las estructuras BEM y Atom Design.</p>
             <div class="pieDePagina__barra">
                 <div class="pieDePagina__enlaces">
+                    <a href="#" class="pieDePagina__enlace">Home</a>
                     <p class="pieDePagina__enlace">LinkedIn</p>
                     <p class="pieDePagina__enlace">GitHub</p>
                     <p class="pieDePagina__enlace">Pixieset</p>

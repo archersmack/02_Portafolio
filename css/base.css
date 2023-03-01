@@ -1,0 +1,12 @@
+.body{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'GFS Didot', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.CONTAINER{
+    padding-left: 4%;   
+    padding-right: 4%;
+}
