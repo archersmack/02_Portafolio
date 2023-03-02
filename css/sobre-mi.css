@@ -1,0 +1,40 @@
+.sobreMi{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1rem;
+    background: #949597;
+}
+
+.sobreMi__titulo{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: left;
+    color: #f5df4d;
+    margin-bottom: -12px;
+    /*text-shadow: -1px -2px 6px black;*/
+}
+
+.sobreMi__contenido{
+    background: #F5DF4D;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.sobreMi__parrafo{
+    font-family: 'GFS Didot', serif;
+    font-size: 1.1rem;
+    text-align: right;
+    color: darkslategray;
+}
+
+.sobreMi__foto{
+    width: 35%;
+    height: 35%;
+    border-radius: 100%;
+    align-self: center;
+    border: 0.6rem solid #f5df4d;
+    margin: 1rem 0;
+}

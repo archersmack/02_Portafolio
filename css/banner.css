@@ -1,4 +1,68 @@
-.banner.CONTAINER{
-    background: #949597;
+.banner{
+    height: 100vh;
+    
+    background: url(https://photos.gurushots.com/unsafe/600x0/18be37e9d7d3f352526ee16f48fe447d/3_ee983fb47305c227da443cc7c23e9da2.jpg) center/cover no-repeat;
+/*     #949597;*/
+opacity: 95%;
 }
 
+.banner__presentacion{
+    padding-top: 50px;
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.banner__texto{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__texto--bienvenida{
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #F5DF4D;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.banner__texto--saludo{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'GFS Didot', serif;
+}
+
+.banner__texto--parrafo{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 0 0 #ffffff;
+    padding: 16px 0 16px 10px;
+}
+
+.banner__texto--sobreMi{
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #F5DF4D;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: underline;
+    height: 1.5rem;
+    display: block;
+}
+
+.banner__enlaces{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    gap: 0.6rem;
+}
+
+.banner__link{
+    
+    padding-top: 3rem;
+    
+}

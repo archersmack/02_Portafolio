@@ -1,7 +1,8 @@
 .head{
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.8);
+    padding-bottom: 2px;
 }
 
 .head__logo{
