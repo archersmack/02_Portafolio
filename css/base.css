@@ -4,9 +4,11 @@
     font-family: 'GFS Didot', serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Xanh Mono', monospace;
+    font-family: 'La Belle Aurore', cursive;
 }
 
 .CONTAINER{
-    padding-left: 4%;   
-    padding-right: 4%;
+    height: 100%;
+    padding: 1rem 4%;
 }
+
