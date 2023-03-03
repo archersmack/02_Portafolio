@@ -1,3 +1,74 @@
 .proyectos{
     background: #949597;
 }
+
+.proyectos__cajaPrincipal{
+    background: white;
+    border-radius: 10px;
+}
+
+.proyectos__tituloPrincipal{
+    color: #949597;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.proyectos__tipos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    width: 92%;
+    margin: 0 4%;
+}
+
+.proyectos__caja{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+
+/*================ Proyectos Programación ===================*/
+
+.proyectos__caja--programacion{
+    background: #f5df4de6;
+}
+
+/*================ Proyectos Fotografía ===================*/
+.proyecto__titulos{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 2rem;
+    width: 80vw;
+}
+
+.proyectos__titulo{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.proyectos__titulo--programacion{
+    color: #f5df4de6;
+    text-align: left;
+    margin-top: -0.7324218rem;
+}
+
+.proyectos__titulo--fotografia{    
+    color: #d3d3d3;
+    text-align: right;
+    padding-top: 1.44rem;
+}
+
+/*================ Proyectos Fotografía ===================*/
+
+.proyectos__caja--fotografia{
+    margin-bottom:1rem;
+    background: #d3d3d3;
+}

@@ -45,12 +45,13 @@
 .formacion__cursos{
     list-style-type: disclosure-open;
     list-style-position: inside;
+    padding: 0.1rem 0.3rem;
 }
 
 .formacion__curso{
     font-family: 'Roboto Mono', monospace;
     font-size: 0.85rem;
     text-align: left;
-    color: rgb(0 0 0 / 80%);
+    color: #232323;
     padding: 0.6rem 0;
 }

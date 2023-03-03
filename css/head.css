@@ -1,7 +1,7 @@
 .head{
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.8);
+    background: #232323;
     padding-bottom: 2px;
 }
 
@@ -47,7 +47,7 @@
 
 .head__item__texto:hover{
     background: #F5DF4D;
-    color:rgba(0, 0, 0, 0.80);
+    color:#232323;
     border: 0.1rem solid  #F5DF4D;
 }
 
@@ -63,7 +63,7 @@
     background: #F5DF4D;
     border: 0.1rem solid #F5DF4D;
     border-radius: 5px;
-    color: rgba(0, 0, 0, 0.80);
+    color: #232323;
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
     font-weight: 500;
