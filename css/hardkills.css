@@ -1,3 +1,44 @@
 .hardkills{
     background: #F5DF4D;
 }
+
+.hardskills__titulo{
+    text-align: center;
+    color: #a99510;
+    margin-bottom: 1rem;
+}
+
+.hardskills__items{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hardskills__item{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+    background: black;
+    box-shadow: 5px 5px 0 0 #a99510;
+}
+
+.hardskills__imagen{
+    display: none;
+}
+
+.hardskills__nombre{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #F5DF4D;
+    
+}

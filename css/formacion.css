@@ -1,3 +1,56 @@
 .formacion{
     background: #d3d3d3;
 }
+
+.formacion__titulo{
+    text-align: center;
+    color: rgb(111 111 111);
+    margin-bottom: 1rem;
+}
+
+.formacion__lista{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.formacion__estudios{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #949597;
+    margin: 0.062rem;
+    padding: 0.5rem;
+    border: 0.15rem solid #F5DF4D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px -3px #545454;
+}
+
+.formacion__imagen{
+    display: none;
+}
+
+.formacion__lugar{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #F5DF4D;
+}
+
+.formacion__cursos{
+    list-style-type: disclosure-open;
+    list-style-position: inside;
+}
+
+.formacion__curso{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.85rem;
+    text-align: left;
+    color: rgb(0 0 0 / 80%);
+    padding: 0.6rem 0;
+}
