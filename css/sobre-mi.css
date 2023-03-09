@@ -35,3 +35,9 @@
     border: 0.6rem solid #f5df4d;
     margin: 1rem 0;
 }
+
+@media screen and (min-width: 768px){
+    .sobreMi__titulo{
+        margin-bottom: -26px;
+    }
+}

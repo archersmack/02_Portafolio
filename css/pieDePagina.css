@@ -31,3 +31,11 @@
     color: white;
 }
 
+@media screen and (min-width: 768px){
+    .pieDePagina{
+        padding: 2rem 0;
+    }
+    .pieDePagina__enlaces{
+        gap: 4rem;
+    }
+}

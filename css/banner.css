@@ -1,21 +1,23 @@
 .banner{
     background: url(https://photos.gurushots.com/unsafe/600x0/18be37e9d7d3f352526ee16f48fe447d/3_ee983fb47305c227da443cc7c23e9da2.jpg) center/cover no-repeat;
     opacity: 95%;
+    height: 96vh;
 }
 
 .banner__presentacion{
-    padding-top: 20px;
     display: flex;
-    height: 90%;
+    height: 98%;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .banner__texto{
     text-align: right;
     display: flex;
     flex-direction: column;
+    width: 20rem;
+    height: 80%;
+    align-self: flex-end;
 }
 
 .banner__texto--bienvenida{
@@ -30,10 +32,12 @@
     font-weight: 900;
     color: #FFFFFF;
     font-family: 'GFS Didot', serif;
+    flex-grow: 1;
+    margin: 5% 0;
 }
 
 .banner__texto--parrafo{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
@@ -58,8 +62,31 @@
     gap: 0.6rem;
 }
 
-.banner__link{
-    
-    padding-top: 3rem;
-    
+
+@media screen and (min-width: 1024px){
+    .banner__texto--saludo{
+        width: 50rem;
+        align-self: end;
+        font-size: 6rem;
+    }
+    .banner__texto--parrafo{
+        width: 25rem;
+        align-self: end;
+    }
+    .banner__texto--sobreMi{
+        padding-top: 1rem;
+    }
+    .banner__enlaces{
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .banner__presentacion{
+        gap: 1rem;
+    }
+    .banner__texto--saludo{
+        width: 60rem;
+        font-size: 8rem;
+    }
 }

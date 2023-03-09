@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     gap: 1.5rem;
     padding: 1rem 1rem;
     border-radius: 10px;
@@ -46,6 +47,8 @@
 }
 
 .proyectos__tarjeta{
+    width: 90%;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,19 +72,15 @@
 .proyectos__descripcion{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     padding: 0.9rem;
-}
-
-.programacion__imagen{
-    
 }
 
 .proyecto__programas{
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 0.9rem;
     text-align: center;
-    padding: 0.6rem;
+    padding: 0 0.6rem 0.6rem 0.6rem;
 }
 
 .proyectos__probar{
@@ -120,4 +119,19 @@
     color: #d3d3d3;
     text-align: right;
     padding-top: 1.44rem;
+}
+
+@media screen and (min-width: 768px){
+    .proyectos__descripcion{
+        font-size: 1.3rem;
+    }
+    .proyectos__titulo{
+        font-size: 2rem;
+    }
+    .proyectos__titulo--programacion{
+        margin-top: -0.79rem;
+    }
+    .proyectos__titulo--fotografia{
+        padding-top: 0.75rem;
+    }
 }

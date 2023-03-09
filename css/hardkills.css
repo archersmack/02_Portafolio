@@ -19,7 +19,8 @@
 }
 
 .hardskills__item{
-    width: 70%;
+    width: 12rem;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,7 +33,13 @@
 }
 
 .hardskills__imagen{
-    display: none;
+    width: 50%;
+    margin: 1.5rem;
+}
+
+.hardskills__imagen--css{
+    width: 6rem;
+    margin: 0;
 }
 
 .hardskills__nombre{
@@ -40,5 +47,15 @@
     font-size: 1.7rem;
     text-align: center;
     color: #F5DF4D;
-    
+    margin-bottom: 1.1rem;
+}
+
+@media screen and (min-width: 768px){
+    .hardskills__items {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        padding: 1rem 0;
+    }
 }
