@@ -5,6 +5,7 @@
 .proyectos__cajaPrincipal{
     background: white;
     border-radius: 10px;
+    margin: 1rem 0;
 }
 
 .proyectos__tituloPrincipal{
@@ -22,24 +23,79 @@
     margin: 0 4%;
 }
 
+/*================ Cajas de Proyectos ===================*/
+
 .proyectos__caja{
     height: 40%;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1.5rem;
     padding: 1rem 1rem;
     border-radius: 10px;
 }
-
-/*================ Proyectos Programación ===================*/
 
 .proyectos__caja--programacion{
     background: #f5df4de6;
 }
 
-/*================ Proyectos Fotografía ===================*/
+.proyectos__caja--fotografia{
+    margin-bottom:1rem;
+    background: #d3d3d3;
+}
+
+.proyectos__tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background: white;
+    border-radius: 10px;
+}
+
+.proyectos__titulo--tarjeta{
+    height: 100%;
+    background: #232323;
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.proyectos__descripcion{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding: 0.9rem;
+}
+
+.programacion__imagen{
+    
+}
+
+.proyecto__programas{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.proyectos__probar{
+    background: #232323;
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 0 0 10px 10px;
+}
+
+/*================ Titulos de las cajas ===================*/
 .proyecto__titulos{
     display: flex;
     justify-content: space-between;
@@ -64,11 +120,4 @@
     color: #d3d3d3;
     text-align: right;
     padding-top: 1.44rem;
-}
-
-/*================ Proyectos Fotografía ===================*/
-
-.proyectos__caja--fotografia{
-    margin-bottom:1rem;
-    background: #d3d3d3;
 }

@@ -1,3 +1,44 @@
 .contacto{
     background: #a99510;
 }
+
+.contacto__titulo{
+    margin-bottom: 1rem;
+    color: #232323;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.contacto__label{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.3rem;
+}
+
+.contacto__input{
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.0rem;
+    border-radius: 5px;
+    border: 0.3rem solid white;
+}
+
+.contacto__input:focus{
+    outline: none;
+    color: #232323;
+}
+
+.contacto__enviar{
+    border-radius: 5px;
+    border: 0.3rem solid #232323;
+    background: #232323;
+    color: #a99510;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
