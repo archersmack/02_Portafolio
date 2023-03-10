@@ -11,6 +11,11 @@
     margin-bottom: -12px;
 }
 
+.sobreMi__parrafoFoto{
+    display: flex;
+    flex-direction: column;
+}
+
 .sobreMi__contenido{
     background: #F5DF4D;
     padding: 1rem;
@@ -39,5 +44,17 @@
 @media screen and (min-width: 768px){
     .sobreMi__titulo{
         margin-bottom: -26px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .sobreMi__parrafoFoto{
+        flex-direction: row;
+        gap: 4rem;
+    }
+    .sobreMi__parrafo{
+        height: 92%;
+        font-size: 1.33rem;
+        text-align: center;
     }
 }

@@ -27,19 +27,19 @@
     <body>
         <header class="head CONTAINER">
             <div class="head__logo">
-                <span style="font-size: 3rem;color: whitesmoke;flex-grow: 1;text-align: right;">
+                <span style="font-size: 1.8rem;color: whitesmoke;flex-grow: 1;text-align: right;">
                     <i class="fa-solid fa-user-astronaut"></i>
                 </span>
-                <a href="#" class="head__nombre">Portafolio <br> G_D Hernández</a>
+                <a href="#" class="head__nombre">Mi Portafolio</a>
             </div>
-            <nav>
+            <nav class="head__cajaNavegacion">
                 <ul class="head__navegacion">
                     <a class="head__item__texto" href="#conocer">SOBRE MI</a>
                     <a class="head__item__texto" href="#habilidades">SKILLS</a>
-                    <a class="head__item__texto" href="#formacion">FORMACION</a>
+                    <a class="head__item__texto" href="#formacion">FORMACIÓN</a>
                     <a class="head__item__texto head__item__texto--proyectos" href="#projects">PROYECTOS</a>
                     <!--<a class="head__item__texto" href="# galeria">GALERIA</a>-->
-                    <a class="head__item__texto" href="#contactar">CONTACTAME</a>
+                    <a class="head__item__texto" href="#contactar">CONTÁCTAME</a>
                 </ul>
             </nav>
             <div class="head__containerBoton">
@@ -52,9 +52,7 @@
         </header>
 
         <main>
-            <section class="banner CONTAINER">
-                <!--<img src="" alt="Imagen de Fondo del Banner" class="banner__imagen">-->
-
+            <section class="banner CONTAINER CONTAINER--banner">
                 <div class="banner__presentacion">
                     <div class="banner__texto">
                         <h1 class="banner__texto--bienvenida">Bienvenid@s!</h1>
@@ -80,10 +78,12 @@
 
             <section class="sobreMi CONTAINER" id="conocer">
                 <h1 class="sobreMi__titulo TITULO">Sobre mi</h1>
-                <div class="sobreMi__contenido">
-                    <p class="sobreMi__parrafo">Hola, soy Darío, tengo 38 años y vivo en Villavicencio (Colombia). <br><br>Actualmente, estoy formándome como Desarrollador WEB.<br><br>Soy muy activo y curioso. <br><br>Como consultor de servicio logré desarrollar la capacidad de escuchar y resolver problemas, habilidades de comunicación y comprensión, de resolución de problemas y de trabajo en equipo.<br><br>Me apasiona mi familia, aprender nuevos conocimientos y la fotografía. <br><br> Cada esfuerzo que realizó, grande o pequeño, lo hago con el fin de transformar mi vida y la de ellos.</p>
+                <div class="sobreMi__parrafoFoto">
+                    <div class="sobreMi__contenido">
+                        <p class="sobreMi__parrafo">Hola, soy Darío, tengo 38 años y vivo en Villavicencio (Colombia). <br><br>Actualmente, estoy formándome como Desarrollador WEB.<br><br>Soy muy activo y curioso. <br><br>Como consultor de servicio logré desarrollar la capacidad de escuchar y resolver problemas, habilidades de comunicación y comprensión, de resolución de problemas y de trabajo en equipo.<br><br>Me apasiona mi familia, aprender nuevos conocimientos y la fotografía. <br><br> Cada esfuerzo que realizó, grande o pequeño, lo hago con el fin de transformar mi vida y la de ellos.</p>
+                    </div>
+                    <img src="images/foto_dario.jpeg" alt="Foto de Dario Hernandez" class="sobreMi__foto">
                 </div>
-                <img src="images/foto_dario.jpeg" alt="Foto de Dario Hernandez" class="sobreMi__foto">
             </section>
 
             <section class="softskills CONTAINER" id="habilidades">
@@ -298,20 +298,21 @@
 
             <section class="contacto CONTAINER" id="contactar">
                 <h1 class="contacto__titulo TITULO">Contáctame</h1>
-                <form action="" class="contacto__formulario">
-                    <label for="correoElectronoico" class="contacto__label">Email</label>
-                    <input type="email" id="correoElectronoico" class="contacto__input" required placeholder="email@dominio.com">
+                <form class="contacto__formulario" action="https://formspree.io/f/xoqzlvwn" method="POST">
+                    <label for="correoElectronoico" class="contacto__label">Tu email</label>
+                    <input type="email" name="email" id="correoElectronoico" class="contacto__input" required placeholder="email@dominio.com">
                     
-                    <label for="contacto" class="contacto__label">Nombres y Apellidos</label>
+                    <label for="contacto" class="contacto__label">Tus nombres y apellidos</label>
                     <input type="text" id="contacto" class="contacto__input" required>
                     
                     <label for="asunto" class="contacto__label">Asunto</label>
                     <input type="text" id="asunto" class="contacto__input" required>
                     
                     <label for="mensaje" class="contacto__label">Mensaje</label>
-                    <textarea name="" id="mensaje" cols="30" rows="10" class="contacto__input contacto__input--mensaje" required></textarea>
+                    <textarea name="message" id="mensaje" cols="30" rows="10" class="contacto__input contacto__input--mensaje" required></textarea>
                     
-                    <input type="submit" value="Oprima para enviar" class="contacto__enviar"></form>
+                    <button type="submit" value="" class="contacto__enviar">Oprima para enviar</button>
+                </form>
             </section>
 
         </main>
@@ -347,4 +348,5 @@
         </footer>
         
     </body>
+    
 </html>

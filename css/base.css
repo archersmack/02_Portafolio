@@ -24,3 +24,18 @@
         font-size: 8rem;
     }
 }
+
+@media screen and (min-width: 1024px){
+    main{
+        padding-top: 50px;
+    }
+    .TITULO{
+        padding-top: 45px;
+    }
+    .CONTAINER{
+        padding-bottom: 6rem;
+    }
+    .CONTAINER--banner{
+        padding: 1rem 4%;
+    }
+}
