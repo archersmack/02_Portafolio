@@ -25,15 +25,20 @@
     </head>
 
     <body>
-        <header class="head CONTAINER">
+        <header class="head CONTAINER" id="head__ID">
             <div class="head__logo">
-                <span style="font-size: 1.8rem;color: whitesmoke;flex-grow: 1;text-align: right;">
+                <span style="font-size: 1.8rem;color: whitesmoke;flex-grow: 1;text-align: left;">
                     <i class="fa-solid fa-user-astronaut"></i>
                 </span>
                 <a href="#" class="head__nombre">Mi Portafolio</a>
+                <button class="head__buttonNav">
+                    <span style="font-size: 1.8rem;color: whitesmoke;flex-grow: 1;text-align: right;">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </button>
             </div>
             <nav class="head__cajaNavegacion">
-                <ul class="head__navegacion">
+                <ul class="head__navegacion" id="head__navegacion--id">
                     <a class="head__item__texto" href="#conocer">SOBRE MI</a>
                     <a class="head__item__texto" href="#habilidades">SKILLS</a>
                     <a class="head__item__texto" href="#formacion">FORMACIÓN</a>
@@ -45,7 +50,9 @@
             <div class="head__containerBoton">
                 <a href="https://drive.google.com/file/d/136DtbijvpjYOULsibI0Q4U-K3PLM76nL/view?usp=share_link" target="_blank">
                     <button class="head__boton">DESCARGAR CV ---
-                        <span style="font-size: 1.2rem;color: rgba(0, 0, 0, 0.80);"><i class="fa-solid fa-cloud-arrow-down fa-beat"></i></span>
+                        <span style="font-size: 1.2rem;color: rgba(0, 0, 0, 0.80);">
+                            <i class="fa-solid fa-cloud-arrow-down fa-beat"></i>
+                        </span>
                     </button>
                 </a>
             </div>
@@ -286,9 +293,9 @@
                             </div>
 -->
                             <div class="proyectos__tarjeta">
-                                <h1 class="proyectos__titulo--tarjeta">Fotografia social</h1>
+                                <h1 class="proyectos__titulo--tarjeta">Fotografía   Social</h1>
                                 <img src="images/galeria_pixieset.png" alt="Imagen Galería fotografía social" class="fotografia__imagen">
-                                <p class="proyectos__descripcion">Galeria de los ultimos trabajos realizados como Freelance.</p>
+                                <p class="proyectos__descripcion">Galería de los últimos trabajos realizados como Freelance.</p>
                                 <a href="https://germandariofotografia.pixieset.com/" class="proyectos__probar">Mirar galería</a>
                             </div>
                         </div>
@@ -311,14 +318,14 @@
                     <label for="mensaje" class="contacto__label">Mensaje</label>
                     <textarea name="message" id="mensaje" cols="30" rows="10" class="contacto__input contacto__input--mensaje" required></textarea>
                     
-                    <button type="submit" value="" class="contacto__enviar">Oprima para enviar</button>
+                    <button type="submit" value="" class="contacto__enviar">Envíame </button>
                 </form>
             </section>
 
         </main>
         
         <footer class="pieDePagina CONTAINER">
-            <p class="pieDePagina__descripcion">Ésta página fue elaborada usando metodologia ágil, la herramienta EMET, el diseño FirstMobile y las estructuras BEM y Atom Design.</p>
+            <p class="pieDePagina__descripcion">Ésta página fue elaborada usando metodología ágil, la herramienta EMET, el diseño FirstMobile y las estructuras BEM y Atom Design.</p>
             <div class="pieDePagina__barra">
                 <div class="pieDePagina__enlaces">
                     <a href="#" class="pieDePagina__enlace">
@@ -342,11 +349,36 @@
                     </a>
                     <!-- <a href="https://gurushots.com/archersmack?tc=bd73b055701cb3b92cbc932670f11778" class="pieDePagina__enlace"><img src="images/gurushots.png" alt=""></a>   -->
                 </div>    
-                <p class="textoAutor">&copy Todos los derechos reservados por G_D Hernández Leal</p>
+                <p class="textoAutor">&copy Todos los derechos reservados por G_D Hernández Leal - 2023</p>
                 <!--<p class="pieDePagina__contador">Contador de Visitas</p>-->
             </div>
         </footer>
         
     </body>
     
+    <script>
+        /* /////////////////// FUNCIONES ////////////// */
+        function activarDesactivarMenuNavegacion() {
+                if (estadoNavegacion == "none"){
+                    document.getElementById("head__navegacion--id").style.display = "flex";
+                    document.getElementById("head__ID").style.height = "255px";
+                    estadoNavegacion = "flex";
+                }
+                else{
+                    document.getElementById("head__navegacion--id").style.display = "none";
+                    document.getElementById("head__ID").style.height = "70px";
+                    estadoNavegacion = "none";
+                }
+        }
+
+        /* /////////////////// CUERPO DEL ALGORITMO ////////////////// */
+
+        var botonNavegacion = document.querySelector(".head__buttonNav");
+        var opcionesNavegacion = document.querySelector(".head__navegacion");
+        var estadoNavegacion = document.getElementById("head__navegacion--id").style.display;
+
+        botonNavegacion.onclick = activarDesactivarMenuNavegacion;
+
+    </script>
+
 </html>

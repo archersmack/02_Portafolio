@@ -1,7 +1,7 @@
 .banner{
     background: url(https://photos.gurushots.com/unsafe/600x0/18be37e9d7d3f352526ee16f48fe447d/3_ee983fb47305c227da443cc7c23e9da2.jpg) center/cover no-repeat;
     opacity: 95%;
-    height: 96vh;
+    height: calc(96vh - 95px);
 }
 
 .banner__presentacion{
@@ -62,8 +62,11 @@
     gap: 0.6rem;
 }
 
-
+/************ MEDIA QUERYS ***********/
 @media screen and (min-width: 1024px){
+    .banner{
+        height: calc(96vh - 50px);
+    }
     .banner__texto--saludo{
         width: 50rem;
         align-self: end;
@@ -77,7 +80,7 @@
         padding-top: 1rem;
     }
     .banner__enlaces{
-        padding-bottom: 4rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -87,6 +90,5 @@
     }
     .banner__texto--saludo{
         width: 60rem;
-        font-size: 8rem;
     }
 }
