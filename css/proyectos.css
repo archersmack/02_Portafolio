@@ -89,15 +89,33 @@
     padding: 0 0.6rem 0.6rem 0.6rem;
 }
 
-.proyectos__probar{
+.proyecto__repositorioProbar{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
     background: #232323;
+    border-radius: 0 0 10px 10px;
+}
+
+.proyectos__repositorio{
     color: #ffffff;
     font-family: 'Roboto Mono';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
     padding: 0.6rem;
-    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+}
+
+.proyectos__probar{
+    flex-grow: 1;
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.6rem;
+    text-decoration: none;
 }
 
 /*================ Titulos de las cajas ===================*/
