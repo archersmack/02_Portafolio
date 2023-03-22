@@ -1,3 +1,8 @@
+html {   
+    min-width: 320px;   
+    max-width: 1400px; 
+    }
+
 .body{
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Edu QLD Beginner', cursive;
