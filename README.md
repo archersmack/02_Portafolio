@@ -1,7 +1,7 @@
 # Mi Portafolio Personal :fa-briefcase: 
 #### [Eres curioso? Mira la Página Web.](https://archersmack.github.io/02_Portafolio/ "Heading link")
 
-![Imagen GIF de portada](https://drive.google.com/file/d/1O7oqXpU8v_BqDTx5wRIAe06BT4VMiE5k/view?usp=share_link)
+![Imagen GIF de portada](https://drive.google.com/uc?export=view&id=1O7oqXpU8v_BqDTx5wRIAe06BT4VMiE5k)
 
 ---
 > ### Contenido:
