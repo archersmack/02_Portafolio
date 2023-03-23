@@ -113,3 +113,9 @@
         font-size: 1.1rem;
     }
 }
+
+@media screen and (min-width: 1400px){
+    .head{
+        right: calc(100vw - 1400px);
+    }
+}

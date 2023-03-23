@@ -37,7 +37,7 @@
 }
 
 .banner__texto--parrafo{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 900;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
@@ -77,7 +77,7 @@
         align-self: end;
     }
     .banner__texto--sobreMi{
-        padding-top: 1rem;
+        padding-top: 0.2rem;
     }
     .banner__enlaces{
         padding-bottom: 1rem;
@@ -90,5 +90,11 @@
     }
     .banner__texto--saludo{
         width: 60rem;
+    }
+}
+
+@media screen and (min-height: 650px){
+    .banner__texto--parrafo{
+        font-size: 1.5rem;
     }
 }
