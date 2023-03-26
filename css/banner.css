@@ -1,7 +1,7 @@
 .banner{
     background: url(https://photos.gurushots.com/unsafe/600x0/18be37e9d7d3f352526ee16f48fe447d/3_ee983fb47305c227da443cc7c23e9da2.jpg) center/cover no-repeat;
     opacity: 95%;
-    height: calc(96vh - 95px);
+    /*height: calc(96vh - 95px);*/
 }
 
 .banner__presentacion{
@@ -53,6 +53,7 @@
     text-decoration: underline;
     height: 1.5rem;
     display: block;
+    padding-bottom: 1rem;
 }
 
 .banner__enlaces{
@@ -63,6 +64,14 @@
 }
 
 /************ MEDIA QUERYS ***********/
+@media screen and (min-width: 768px){
+    .banner__texto--saludo{
+        width: 40rem;
+        align-self: end;
+    }
+}
+
+
 @media screen and (min-width: 1024px){
     .banner{
         height: calc(96vh - 50px);

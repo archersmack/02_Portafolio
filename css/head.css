@@ -80,6 +80,19 @@
     border: 0.1rem solid  #F5DF4D;
 }
 
+@media screen and (min-width: 768px){
+    .head{
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        height: 20px;
+    }
+    .head__logo{
+        align-items: center;
+        flex-grow: 2;
+    }
+}
+
 @media screen and (min-width: 1024px){
     .head{
         flex-direction: row;
@@ -89,6 +102,9 @@
         padding: 0.3rem 2%;
         box-shadow: 0px -1px 4px 1px #232323;
         height: 40px;
+    }
+    .head__logo{
+        flex-grow: 0;
     }
     .head__buttonNav{
         display: none;

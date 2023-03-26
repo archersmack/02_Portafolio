@@ -29,6 +29,9 @@ main{
 }
 
 @media screen and (min-width: 768px){
+    main{
+        padding-top: 50px;
+    }
     .TITULO{
         font-size: 8rem;
     }

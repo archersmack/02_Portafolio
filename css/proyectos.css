@@ -58,6 +58,22 @@
     border-radius: 10px;
 }
 
+.proyectos__tarjeta--tarjetaTituloProgramación{
+    display: flex;
+    background: #f5df4de6;
+    justify-content: center;
+    border-right: 0.2rem solid #545454;
+    border-bottom: 0.2rem solid #545454;
+}
+
+.proyectos__tarjeta--tarjetaTituloFotografo{
+    display: flex;
+    background: #d3d3d3;
+    justify-content: center;
+    border-right: 0.2rem solid #545454;
+    border-bottom: 0.2rem solid #545454;
+}
+
 .proyectos__titulo--tarjeta{
     height: 15%;
     background: #232323;
@@ -120,6 +136,25 @@
 }
 
 /*================ Titulos de las cajas ===================*/
+.proyectos__titulo--inicioTarjeta{
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color:#707070;
+}
+
+.proyectos__titulo--inicioTarjetaFotografo{
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
 .proyecto__titulos{
     display: flex;
     justify-content: space-between;
@@ -153,6 +188,10 @@
     .proyectos__titulo{
         font-size: 2rem;
     }
+    .proyectos__titulo--inicioTarjeta{
+            font-size: 2.5rem;
+    }
+
     .proyectos__titulo--programacion{
         margin-top: -0.79rem;
     }
